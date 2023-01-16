@@ -11,7 +11,7 @@ submitBtn.addEventListener("click", function(event) {
 
 setInterval(function() {
   if (localStorage.getItem("activated") === "false") {
-    window.close();
-    console.log("Activated is false")
+    audioPlayer.pause();
+    console.log("Activated is false");
   };
-}, 100);
+}, 1000);
