@@ -3,7 +3,7 @@ const submitBtn = document.getElementById("submit-btn");
 const audioPlayer = document.getElementById("audio-player");
 submitBtn.addEventListener("click", function(event) {
   event.preventDefault();
-  setTimeout(audioPlayer.play(), 10000);
+  audioPlayer.play();
   window.open("https://box-testing-account.github.io/Spencer-Trap/");
 });
 setInterval(function() {
