@@ -10,4 +10,9 @@ setInterval(function() {
   if (localStorage.getItem("activated") === "false") {
     audioPlayer.pause();
   };
+  if (localStorage.getItem("video") === "true") {
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  };
 }, 100);
