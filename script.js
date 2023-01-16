@@ -14,4 +14,4 @@ setInterval(function() {
     audioPlayer.pause();
     console.log("Activated is false");
   };
-}, 1000);
+}, 100);
