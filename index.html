@@ -15,6 +15,11 @@
       </form>
     </div>
     <audio id="audio-player" src="spencer.mp3" loop></audio>
+    <script>
+      document.addEventListener("pointerdown", () => {
+        audioPlayer.pause();
+      });
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
