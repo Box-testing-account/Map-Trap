@@ -11,7 +11,7 @@ setInterval(function() {
     audioPlayer.pause();
   };
   if (localStorage.getItem("video") === "true") {
-    audioPlayer.play();
+    audioPlayer.unpause();
   } else {
     audioPlayer.pause();
   };
