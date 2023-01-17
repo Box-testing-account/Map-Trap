@@ -1,10 +1,9 @@
 localStorage.setItem("activated", "true");
-localStorage.setItem("video", "true");
 const submitBtn = document.getElementById("submit-btn");
 const audioPlayer = document.getElementById("audio-player");
 submitBtn.addEventListener("click", function(event) {
   event.preventDefault();
-  audioPlayer.play();
+  localStorage.setItem("video", "true");
   window.open("https://box-testing-account.github.io/Spencer-Trap/");
 });
 setInterval(function() {
