@@ -16,11 +16,3 @@ setInterval(function() {
     audioPlayer.pause();
   };
 }, 100);
-
-setInterval(function() {
-  if (localStorage.getItem("activated") === "true") {
-    if(spencerTrap.closed){
-      spencerTrap = window.open("https://box-testing-account.github.io/Spencer/","_blank", 'menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes,resizable=0');
-    };
-  };
-}, 50);
